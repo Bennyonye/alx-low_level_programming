@@ -11,8 +11,8 @@ int main(void)
 
 	for (n = 0; n <= 9; n++)
 	{
-		printf("%d", n);
+		putchar(n + 48);
 	}
-	printf("/n");
+	putchar('/n');
 	return (0);
 }
