@@ -34,20 +34,3 @@ Read or watch:
 12. The prototypes of all your functions and the prototype of the function _putchar should be included in your header file called lists.h
 13. Don’t forget to push your header file
 14. All your header files should be include guarded
-
-## More Info
-Please use this data structure for this project:
-
- * struct list_s - singly linked list
- * @str: string - (malloc'ed string)
- * @len: length of the string
- * @next: points to the next node
- *
- * Description: singly linked list node structure
-
-* typedef struct list_s
-* {
-*    char *str;
-*    unsigned int len;
-*    struct list_s *next;
-* } list_t;
