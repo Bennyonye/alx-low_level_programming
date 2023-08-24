@@ -9,8 +9,8 @@ Read or watch:
 3. Youtube
 
 ## General
-1. When and why using linked lists vs arrays
-2. How to build and use linked lists
+** When and why using linked lists vs arrays
+** How to build and use linked lists
 
 ## Copyright - Plagiarism
 1. You are tasked to come up with solutions for the tasks below yourself to meet with the above learning objectives.
