@@ -23,7 +23,8 @@ list_t *add_node_end(list_t **head, const char *str)
 		return (NULL);
 
 	new->str = strdup(str);
-	if (!new->str) // Check if strdup succeeded
+	/* Check if strdup succeeded */
+	if (!new->str)
 	{
 		free(new);
 		return (NULL);
