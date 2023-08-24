@@ -13,10 +13,10 @@ Read or watch:
 * How to build and use linked lists
 
 ## Copyright - Plagiarism
-1. You are tasked to come up with solutions for the tasks below yourself to meet with the above learning objectives.
-2. You will not be able to meet the objectives of this or any following project by copying and pasting someone else’s work.
-3. You are not allowed to publish any content of this project.
-4. Any form of plagiarism is strictly forbidden and will result in removal from the program.
+* You are tasked to come up with solutions for the tasks below yourself to meet with the above learning objectives.
+* You will not be able to meet the objectives of this or any following project by copying and pasting someone else’s work.
+* You are not allowed to publish any content of this project.
+* Any form of plagiarism is strictly forbidden and will result in removal from the program.
 
 ## Requirements
 ### General
@@ -37,15 +37,15 @@ Read or watch:
 
 ## More Info
 Please use this data structure for this project:
-/**
+
  * struct list_s - singly linked list
  * @str: string - (malloc'ed string)
  * @len: length of the string
  * @next: points to the next node
  *
  * Description: singly linked list node structure
- */
-typedef struct list_s
+
+* typedef struct list_s
 {
     char *str;
     unsigned int len;
