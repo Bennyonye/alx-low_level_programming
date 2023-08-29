@@ -16,7 +16,7 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index)
 	if (!head || !*head)
 		return (-1);
 
-	// Delete node at the start.
+	/* Delete node at the start. */
 	if (index == 0)
 	{
 		*head = temp->next;
@@ -24,13 +24,13 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index)
 		return (1);
 	}
 
-	// Traverse the list until we reach the node just before the target.
+	/* Traverse the list until we reach the node just before the target. */
 	for (i = 0; temp && i < index - 1; i++)
 	{
 		temp = temp->next;
 	}
 
-	// If the next node doesn't exist, or the list ends before the target index.
+	/* If the next node doesn't exist, or the list ends before the target index. */
 	if (!temp || !temp->next)
 		return (-1);
 
