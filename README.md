@@ -1,8 +1,8 @@
-* ALX LOW LEVEL PROGRAMMING
-** Learning Objectives
+# ALX LOW LEVEL PROGRAMMING
+## Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
-** General
+## General
 1. Why C programming is awesome
 2. Who invented C
 3. Who are Dennis Ritchie, Brian Kernighan and Linus Torvalds
