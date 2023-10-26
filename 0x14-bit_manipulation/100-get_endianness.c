@@ -10,6 +10,8 @@ int get_endianness(void)
 	int test = 1;
     /* Interpret the integer as a sequence of bytes. */
 	char *byte = (char *)&test;
-	/* Check the value of the least significant byte (first byte). If it's 1, the system is little endian. If it's 0, the system is big endian. */
+    /* Check the value of the least significant byte (first byte).*/
+    /* If it's 1, the system is little endian. */
+    /* If it's 0, the system is big endian. */
 	return (byte[0]);
 }
